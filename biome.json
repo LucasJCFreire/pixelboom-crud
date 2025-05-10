@@ -12,5 +12,8 @@
 			"quoteStyle": "single",
 			"arrowParentheses": "always"
 		}
+	},
+	"files": {
+		"ignore": ["src/components/ui/**/*.*"]
 	}
 }
