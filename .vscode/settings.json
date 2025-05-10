@@ -1,0 +1,16 @@
+{
+	"files.exclude": {
+		".vscode": true,
+		"node_modules": true,
+		"public": true,
+		".gitignore": true,
+		"biome.json": true,
+		"components.json": true,
+		"index.html": true,
+		"package-lock.json": true,
+		"package.json": true,
+		"tsconfig.json": true,
+		"vercel.json": true,
+		"vite.config.ts": true
+	}
+}
