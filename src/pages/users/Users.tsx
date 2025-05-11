@@ -10,7 +10,7 @@ export function Users(): ReactElement {
 		},
 		{
 			title: 'Tempo de sessão',
-			value: '31m 21s',
+			value: '31m 20s',
 		},
 		{
 			title: 'Ativos',
@@ -18,7 +18,7 @@ export function Users(): ReactElement {
 		},
 		{
 			title: 'Inativos',
-			value: 127,
+			value: 91,
 		},
 	];
 	return (
