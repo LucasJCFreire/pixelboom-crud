@@ -8,7 +8,9 @@ import { SidebarProvider } from './components/ui/sidebar';
 export default function App(): ReactElement {
 	return (
 		<BrowserRouter>
-			<SidebarProvider>
+			<SidebarProvider
+				style={{ '--sidebar-width': '240px' } as React.CSSProperties}
+			>
 				<AppSidebar />
 				<Routes>
 					<Route path="/" element={<Navigate to="/fa/usuarios" replace />} />
