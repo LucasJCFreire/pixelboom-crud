@@ -22,7 +22,7 @@ export function Layout(): ReactElement {
 
 	return (
 		<main className="w-full">
-			<header className="border-b h-[72px] flex justify-between items-center px-4">
+			<header className="border-b h-[72px] flex justify-between items-center px-4 sticky top-0 bg-background z-10">
 				<SidebarTrigger />
 				<div className="flex gap-3">
 					{headerButtons.map((btn) => (

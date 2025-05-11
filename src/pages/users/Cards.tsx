@@ -4,27 +4,23 @@ import {
 	CardHeader,
 	CardTitle,
 } from '@/components/ui/card';
-
-interface DataItem {
-	title: string;
-	value: string | number;
-}
+import type { CardItem } from '@/interfaces/user';
 
 interface Props {
-	data: DataItem[];
+	dataCard: CardItem[];
 }
 
-export function Cards({ data }: Props) {
+export function Cards({ dataCard }: Props) {
 	return (
-		<div className="flex flex-wrap gap-4 px-6 lg:px-6 justify-center">
-			{data.map((item) => (
+		<div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 px-4 lg:px-6">
+			{dataCard.map((item) => (
 				<Card
 					key={item.title}
-					className="flex-1 min-w-[250px] max-w-[calc(50%-1rem)] lg:max-w-[calc(25%-1rem)] @container/card bg-primary-foreground border-0 shadow-none"
+					className="flex-1 min-w-[200px] @container/card bg-primary-foreground border-0 shadow-none"
 				>
 					<CardHeader className="relative">
 						<CardDescription className="text-xs">{item.title}</CardDescription>
-						<CardTitle className="@[250px]/card:text-3xl text-2xl tabular-nums  font-normal font-serif">
+						<CardTitle className="@[200px]/card:text-3xl text-2xl tabular-nums  font-normal font-serif">
 							{item.value}
 						</CardTitle>
 					</CardHeader>

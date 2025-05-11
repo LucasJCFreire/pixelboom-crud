@@ -1,30 +1,28 @@
+import type { CardItem, User } from '@/interfaces/user';
+import { useLocationStore } from '@/lib/store';
+import { usersByLocation } from '@/mocks/users';
 import type { ReactElement } from 'react';
+import { useEffect, useState } from 'react';
 import { Cards } from './Cards';
 import { Title } from './Title';
+import { DataTable } from './datatable/DataTable';
 
 export function Users(): ReactElement {
-	const data = [
-		{
-			title: 'Usuários',
-			value: 294,
-		},
-		{
-			title: 'Tempo de sessão',
-			value: '31m 20s',
-		},
-		{
-			title: 'Ativos',
-			value: 203,
-		},
-		{
-			title: 'Inativos',
-			value: 91,
-		},
-	];
+	const { currentLocation } = useLocationStore();
+	const [data, setData] = useState<{
+		cards: CardItem[];
+		users: User[];
+	}>(usersByLocation[currentLocation] || { cards: [], users: [] });
+
+	useEffect(() => {
+		setData(usersByLocation[currentLocation] || { cards: [], users: [] });
+	}, [currentLocation]);
+
 	return (
-		<section className="p-10">
+		<section className="p-1 sm:p-3 lg:p-10">
 			<Title />
-			<Cards data={data} />
+			<Cards dataCard={data.cards} />
+			<DataTable users={data.users} />
 		</section>
 	);
 }
