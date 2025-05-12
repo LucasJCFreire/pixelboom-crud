@@ -124,7 +124,7 @@ export function TablePagination({
 					value={`${pageSize}`}
 					onValueChange={(value) => {
 						onPageSizeChange(Number(value));
-						onPageChange(0); // reset to first page
+						onPageChange(0);
 					}}
 				>
 					<SelectTrigger className="w-20 cursor-pointer">
