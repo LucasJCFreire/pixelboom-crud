@@ -1,6 +1,8 @@
+import { AvatarFallback } from '@radix-ui/react-avatar';
 import { Bell, CircleHelp } from 'lucide-react';
 import type { ReactElement } from 'react';
 import { Outlet } from 'react-router';
+import { Avatar, AvatarImage } from '../ui/avatar';
 import { Button } from '../ui/button';
 import { SidebarTrigger } from '../ui/sidebar';
 import { Toaster } from '../ui/toaster';
@@ -14,10 +16,6 @@ export function Layout(): ReactElement {
 		{
 			id: 'bell',
 			icon: <Bell />,
-		},
-		{
-			id: 'profile',
-			icon: <img src="/profile.png" alt="profile" />,
 		},
 	];
 
@@ -35,6 +33,10 @@ export function Layout(): ReactElement {
 							{btn.icon}
 						</Button>
 					))}
+					<Avatar className="h-10 w-10">
+						<AvatarImage src="/profile.png" alt="profile" />
+						<AvatarFallback>LJ</AvatarFallback>
+					</Avatar>
 				</div>
 			</header>
 			<Outlet />
