@@ -30,8 +30,8 @@ export function UserHandle() {
 				</Button>
 			</SheetTrigger>
 			<SheetContent className="min-w-[275px] sm:min-w-[600px] p-2.5 md:p-10">
-				<SheetHeader className="flex flex-row items-center justify-between mb-10 p-0">
-					<SheetTitle className="font-serif text-2xl">
+				<SheetHeader className="flex flex-row items-center justify-between mb:2 md:mb-10 p-0">
+					<SheetTitle className="font-serif text-xl md:text-2xl">
 						Adicionar usuário
 					</SheetTitle>
 					<SheetClose asChild>
@@ -43,11 +43,11 @@ export function UserHandle() {
 						</Button>
 					</SheetClose>
 				</SheetHeader>
-				<div className="flex flex-col gap-5">
+				<div className="flex flex-col gap-3.5 md:gap-5">
 					<div>
 						<Label
 							htmlFor="name"
-							className="text-right text-sm font-medium mb-2"
+							className="text-right text-sm font-medium mb-1 md:mb-2"
 						>
 							Nome Completo
 						</Label>
@@ -56,7 +56,7 @@ export function UserHandle() {
 					<div>
 						<Label
 							htmlFor="email"
-							className="text-right text-sm font-medium mb-2"
+							className="text-right text-sm font-medium mb-1 md:mb-2"
 						>
 							Email
 						</Label>
@@ -65,7 +65,7 @@ export function UserHandle() {
 					<div>
 						<Label
 							htmlFor="tel"
-							className="text-right text-sm font-medium mb-2"
+							className="text-right text-sm font-medium mb-1 md:mb-2"
 						>
 							Telefone
 						</Label>
@@ -81,7 +81,7 @@ export function UserHandle() {
 						<div className="w-full">
 							<Label
 								htmlFor="cpf"
-								className="text-right text-sm font-medium mb-2"
+								className="text-right text-sm font-medium mb-1 md:mb-2"
 							>
 								CPF
 							</Label>
@@ -90,25 +90,16 @@ export function UserHandle() {
 						<div className="w-full">
 							<Label
 								htmlFor="rg"
-								className="text-right text-sm font-medium mb-2"
+								className="text-right text-sm font-medium mb-1 md:mb-2"
 							>
 								RG
 							</Label>
 							<Input id="rg" placeholder="Digite o RG" />
 						</div>
 					</div>
-					<div>
-						<Label
-							htmlFor="email"
-							className="text-right text-sm font-medium mb-2"
-						>
-							Email
-						</Label>
-						<Input id="email" placeholder="Digite o e-mail" />
-					</div>
-					<div className="bg-[#fafafa] p-4 rounded-md border border-border flex items-center justify-between gap-2">
+					<div className="bg-[#fafafa] p-2 md:p-4 rounded-md border border-border flex items-center justify-between gap-2">
 						<div>
-							<p className="text-sm font-medium mb-2">Status</p>
+							<p className="text-sm font-medium mb-1 md:mb-2">Status</p>
 							<p className="text-xs text-muted-foreground">
 								Defina se o usuário estará ativo ao ser adicionado
 							</p>
