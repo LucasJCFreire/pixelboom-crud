@@ -29,7 +29,7 @@ export function UserHandle() {
 					<span>Adicionar</span>
 				</Button>
 			</SheetTrigger>
-			<SheetContent className="min-w-[275px] sm:min-w-[600px] p-10">
+			<SheetContent className="min-w-[275px] sm:min-w-[600px] p-2.5 md:p-10">
 				<SheetHeader className="flex flex-row items-center justify-between mb-10 p-0">
 					<SheetTitle className="font-serif text-2xl">
 						Adicionar usuário
@@ -77,7 +77,7 @@ export function UserHandle() {
 							</Label>
 						</div>
 					</div>
-					<div className="flex flex-row items-center gap-4">
+					<div className="flex flex-col md:flex-row items-center gap-3 md:gap-4">
 						<div className="w-full">
 							<Label
 								htmlFor="cpf"
@@ -106,7 +106,7 @@ export function UserHandle() {
 						</Label>
 						<Input id="email" placeholder="Digite o e-mail" />
 					</div>
-					<div className="bg-[#fafafa] p-4 rounded-md border border-border flex items-center justify-between">
+					<div className="bg-[#fafafa] p-4 rounded-md border border-border flex items-center justify-between gap-2">
 						<div>
 							<p className="text-sm font-medium mb-2">Status</p>
 							<p className="text-xs text-muted-foreground">
@@ -121,7 +121,7 @@ export function UserHandle() {
 						</div>
 					</div>
 				</div>
-				<SheetFooter className="flex justify-end gap-3 flex-row">
+				<SheetFooter className="flex justify-center md:justify-end gap-3 flex-row">
 					<SheetClose asChild>
 						<Button
 							variant="outline"
