@@ -23,7 +23,7 @@ export function UserHandle({ isOpen, onOpenChange }: Props) {
 	return (
 		<Sheet open={isOpen} onOpenChange={onOpenChange}>
 			<SheetContent className="min-w-[275px] sm:min-w-[600px] p-2.5 md:p-10">
-				<UserHandleHeader />
+				<UserHandleHeader onClose={() => onOpenChange(false)} />
 				<UserHandleForm formData={formData} setFormData={setFormData} />
 				<UserHandleFooter
 					name={formData.name}

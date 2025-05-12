@@ -76,6 +76,7 @@ const ToastClose = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <ToastPrimitives.Close
     ref={ref}
+    asChild
     className={cn("ml-auto", className)}
     toast-close=""
     {...props}
