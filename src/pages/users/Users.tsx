@@ -1,6 +1,6 @@
 import type { CardItem, User } from '@/interfaces/user';
-import { useLocationStore } from '@/lib/store';
 import { usersByLocation } from '@/mocks/users';
+import { useLocationStore } from '@/store/store';
 import type { ReactElement } from 'react';
 import { useEffect, useState } from 'react';
 import { Cards } from './Cards';

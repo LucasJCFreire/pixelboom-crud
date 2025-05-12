@@ -6,7 +6,7 @@ import {
 	SidebarMenuButton,
 	SidebarMenuItem,
 } from '@/components/ui/sidebar';
-import { useLocationStore } from '@/lib/store';
+import { useLocationStore } from '@/store/store';
 import { Activity, FileCheck, User } from 'lucide-react';
 import type { ReactElement } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';

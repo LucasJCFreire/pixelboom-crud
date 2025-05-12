@@ -12,7 +12,7 @@ import {
 	SidebarMenuItem,
 	useSidebar,
 } from '@/components/ui/sidebar';
-import { useLocationStore } from '@/lib/store';
+import { useLocationStore } from '@/store/store';
 import { ChevronsUpDown } from 'lucide-react';
 import { useState } from 'react';
 import {

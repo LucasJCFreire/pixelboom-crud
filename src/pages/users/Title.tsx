@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { useUserHandleStore } from '@/lib/store';
+import { useUserHandleStore } from '@/store/store';
 import { Plus } from 'lucide-react';
 import type { ReactElement } from 'react';
 

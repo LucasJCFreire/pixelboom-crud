@@ -1,5 +1,5 @@
 import { UserHandle } from '@/components/layout/rightSidebar/UserHandle';
-import { useUserHandleStore } from '@/lib/store';
+import { useUserHandleStore } from '@/store/store';
 import { AvatarFallback } from '@radix-ui/react-avatar';
 import { Bell, CircleHelp } from 'lucide-react';
 import type { ReactElement } from 'react';

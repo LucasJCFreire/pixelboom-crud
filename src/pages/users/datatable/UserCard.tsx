@@ -18,7 +18,7 @@ import {
 
 import { useToast } from '@/components/ui/use-toast';
 import type { User } from '@/interfaces/user';
-import { useUserHandleStore } from '@/lib/store';
+import { useUserHandleStore } from '@/store/store';
 
 interface UserCardProps {
 	user: User;
