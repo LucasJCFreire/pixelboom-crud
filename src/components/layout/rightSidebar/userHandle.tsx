@@ -2,7 +2,6 @@ import { Button } from '@/components/ui/button';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-
 import {
 	Sheet,
 	SheetClose,
@@ -10,25 +9,23 @@ import {
 	SheetFooter,
 	SheetHeader,
 	SheetTitle,
-	SheetTrigger,
 } from '@/components/ui/sheet';
 import { Switch } from '@/components/ui/switch';
 import { useToast } from '@/components/ui/use-toast';
-import { Plus, X } from 'lucide-react';
+import { X } from 'lucide-react';
 import { useState } from 'react';
 
-export function UserHandle() {
+type Props = {
+	isOpen: boolean;
+	onOpenChange: (open: boolean) => void;
+};
+
+export function UserHandle({ isOpen, onOpenChange }: Props) {
 	const [isActive, setIsActive] = useState(true);
 	const { toast } = useToast();
 
 	return (
-		<Sheet>
-			<SheetTrigger asChild>
-				<Button className="h-10 cursor-pointer w-28.5 px-3 py-2 rounded-full text-sm font-semibold bg-[#102822]">
-					<Plus />
-					<span>Adicionar</span>
-				</Button>
-			</SheetTrigger>
+		<Sheet open={isOpen} onOpenChange={onOpenChange}>
 			<SheetContent className="min-w-[275px] sm:min-w-[600px] p-2.5 md:p-10">
 				<SheetHeader className="flex flex-row items-center justify-between mb:2 md:mb-10 p-0">
 					<SheetTitle className="font-serif text-xl md:text-2xl">
@@ -43,6 +40,7 @@ export function UserHandle() {
 						</Button>
 					</SheetClose>
 				</SheetHeader>
+
 				<div className="flex flex-col gap-3.5 md:gap-5">
 					<div>
 						<Label
@@ -112,6 +110,7 @@ export function UserHandle() {
 						</div>
 					</div>
 				</div>
+
 				<SheetFooter className="flex justify-center md:justify-end gap-3 flex-row">
 					<SheetClose asChild>
 						<Button

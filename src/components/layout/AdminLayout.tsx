@@ -1,3 +1,5 @@
+import { UserHandle } from '@/components/layout/rightSidebar/userHandle';
+import { useUserHandleStore } from '@/lib/store';
 import { AvatarFallback } from '@radix-ui/react-avatar';
 import { Bell, CircleHelp } from 'lucide-react';
 import type { ReactElement } from 'react';
@@ -9,6 +11,7 @@ import { Toaster } from '../ui/toaster';
 import { AppSidebar } from './leftSidebar/AppSidebar';
 
 export function AdminLayout(): ReactElement {
+	const { isOpen, setIsOpen } = useUserHandleStore();
 	const headerButtons = [
 		{
 			id: 'help',
@@ -46,6 +49,7 @@ export function AdminLayout(): ReactElement {
 				</header>
 				<Outlet />
 			</main>
+			<UserHandle isOpen={isOpen} onOpenChange={setIsOpen} />
 			<Toaster />
 		</SidebarProvider>
 	);

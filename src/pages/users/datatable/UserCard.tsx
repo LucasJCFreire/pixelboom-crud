@@ -18,6 +18,7 @@ import {
 
 import { useToast } from '@/components/ui/use-toast';
 import type { User } from '@/interfaces/user';
+import { useUserHandleStore } from '@/lib/store';
 
 interface UserCardProps {
 	user: User;
@@ -25,6 +26,8 @@ interface UserCardProps {
 
 export function UserCard({ user }: UserCardProps) {
 	const { toast } = useToast();
+	const { open } = useUserHandleStore();
+
 	return (
 		<Card className="flex items-center p-1 md:p-3 min-h-20 gap-1 md:gap-3 flex-row shadow-none">
 			<Avatar className="w-14 h-14 p-0">
@@ -64,13 +67,7 @@ export function UserCard({ user }: UserCardProps) {
 						</Button>
 					</DropdownMenuTrigger>
 					<DropdownMenuContent align="end" className="w-32">
-						<DropdownMenuItem
-							onClick={() =>
-								toast({ description: 'Você não tem permissão para editar.' })
-							}
-						>
-							Editar
-						</DropdownMenuItem>
+						<DropdownMenuItem onClick={open}>Editar</DropdownMenuItem>
 						<DropdownMenuItem
 							onClick={() =>
 								toast({ description: 'Você não tem permissão para excluir.' })
