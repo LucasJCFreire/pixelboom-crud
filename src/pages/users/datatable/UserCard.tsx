@@ -16,6 +16,7 @@ import {
 	Tag,
 } from 'lucide-react';
 
+import { useToast } from '@/components/ui/use-toast';
 import type { User } from '@/interfaces/user';
 
 interface UserCardProps {
@@ -23,6 +24,7 @@ interface UserCardProps {
 }
 
 export function UserCard({ user }: UserCardProps) {
+	const { toast } = useToast();
 	return (
 		<Card className="flex items-center p-1 md:p-3 min-h-20 gap-1 md:gap-3 flex-row shadow-none">
 			<Avatar className="w-14 h-14 p-0">
@@ -62,8 +64,20 @@ export function UserCard({ user }: UserCardProps) {
 						</Button>
 					</DropdownMenuTrigger>
 					<DropdownMenuContent align="end" className="w-32">
-						<DropdownMenuItem>Editar</DropdownMenuItem>
-						<DropdownMenuItem>Excluir</DropdownMenuItem>
+						<DropdownMenuItem
+							onClick={() =>
+								toast({ description: 'Você não tem permissão para editar.' })
+							}
+						>
+							Editar
+						</DropdownMenuItem>
+						<DropdownMenuItem
+							onClick={() =>
+								toast({ description: 'Você não tem permissão para excluir.' })
+							}
+						>
+							Excluir
+						</DropdownMenuItem>
 					</DropdownMenuContent>
 				</DropdownMenu>
 			</div>

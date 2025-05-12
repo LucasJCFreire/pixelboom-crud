@@ -3,6 +3,7 @@ import type { ReactElement } from 'react';
 import { Outlet } from 'react-router';
 import { Button } from '../ui/button';
 import { SidebarTrigger } from '../ui/sidebar';
+import { Toaster } from '../ui/toaster';
 
 export function Layout(): ReactElement {
 	const headerButtons = [
@@ -37,6 +38,7 @@ export function Layout(): ReactElement {
 				</div>
 			</header>
 			<Outlet />
+			<Toaster />
 		</main>
 	);
 }

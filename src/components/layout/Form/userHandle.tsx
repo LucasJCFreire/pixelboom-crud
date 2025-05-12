@@ -13,11 +13,14 @@ import {
 	SheetTrigger,
 } from '@/components/ui/sheet';
 import { Switch } from '@/components/ui/switch';
+import { useToast } from '@/components/ui/use-toast';
 import { Plus, X } from 'lucide-react';
 import { useState } from 'react';
 
 export function UserHandle() {
 	const [isActive, setIsActive] = useState(true);
+	const { toast } = useToast();
+
 	return (
 		<Sheet>
 			<SheetTrigger asChild>
@@ -75,7 +78,7 @@ export function UserHandle() {
 						</div>
 					</div>
 					<div className="flex flex-row items-center gap-4">
-						<div>
+						<div className="w-full">
 							<Label
 								htmlFor="cpf"
 								className="text-right text-sm font-medium mb-2"
@@ -84,7 +87,7 @@ export function UserHandle() {
 							</Label>
 							<Input id="cpf" placeholder="Digite o CPF" />
 						</div>
-						<div>
+						<div className="w-full">
 							<Label
 								htmlFor="rg"
 								className="text-right text-sm font-medium mb-2"
@@ -110,7 +113,7 @@ export function UserHandle() {
 								Defina se o usuário estará ativo ao ser adicionado
 							</p>
 						</div>
-						<div className="flex items-center w-20 justify-between">
+						<div className="flex items-center gap-2">
 							<Switch checked={isActive} onCheckedChange={setIsActive} />
 							<p className="text-sm font-medium">
 								{isActive ? 'Ativo' : 'Inativo'}
@@ -124,13 +127,16 @@ export function UserHandle() {
 							variant="outline"
 							className="h-10 cursor-pointer w-28.5 px-3 py-2 rounded-full text-sm font-semibold"
 						>
-							Cancel
+							Cancelar
 						</Button>
 					</SheetClose>
 					<SheetClose asChild>
 						<Button
 							type="submit"
 							className="h-10 cursor-pointer w-28.5 px-3 py-2 rounded-full text-sm font-semibold bg-[#202822]"
+							onClick={() =>
+								toast({ description: 'Usuário adicionado com sucesso!' })
+							}
 						>
 							Adicionar
 						</Button>
