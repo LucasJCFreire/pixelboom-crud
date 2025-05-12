@@ -62,7 +62,7 @@ export function UserCard({ user }: UserCardProps) {
 				</Badge>
 				<DropdownMenu>
 					<DropdownMenuTrigger asChild>
-						<Button variant="ghost" className="rounded-full h-10 w-10 p-0">
+						<Button variant="ghost" className="pixelboom-btn">
 							<EllipsisVertical className="h-4 w-4" />
 						</Button>
 					</DropdownMenuTrigger>

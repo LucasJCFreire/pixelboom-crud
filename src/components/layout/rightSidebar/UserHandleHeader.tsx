@@ -17,10 +17,7 @@ export function UserHandleHeader() {
 				Preencha os dados abaixo para cadastrar um novo usuário no sistema.
 			</SheetDescription>
 			<SheetClose asChild>
-				<Button
-					className="rounded-full h-10 w-10 cursor-pointer"
-					variant="outline"
-				>
+				<Button className="pixelboom-btn" variant="outline">
 					<X />
 				</Button>
 			</SheetClose>

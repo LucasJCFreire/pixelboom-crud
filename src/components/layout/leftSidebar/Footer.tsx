@@ -43,7 +43,7 @@ export function Footer(): ReactElement {
 								<Input placeholder="Digite sua mensagem..." />
 								<Button
 									size="sm"
-									className="self-end flex gap-2 items-center cursor-pointer"
+									className="self-end flex gap-2 items-center cursor-pointer rounded-2xl"
 								>
 									<Send className="w-4 h-4" />
 									<span>Enviar</span>

@@ -34,7 +34,7 @@ export function DataTable({ users }: Props) {
 			<div className="relative flex items-center space-x-2">
 				<Search className="absolute left-3 h-4 w-4 text-muted-foreground pointer-events-none" />
 				<Input type="text" placeholder="Buscar..." className="pl-10" />
-				<Button variant="outline" className="rounded-full h-10 w-10 p-0">
+				<Button variant="outline" className="pixelboom-btn">
 					<ListFilter className="h-4 w-4" />
 				</Button>
 			</div>

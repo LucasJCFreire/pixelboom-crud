@@ -122,3 +122,7 @@
 html {
 	min-width: 370px;
 }
+
+.pixelboom-btn {
+	@apply rounded-full h-10 w-10 p-0 cursor-pointer;
+}

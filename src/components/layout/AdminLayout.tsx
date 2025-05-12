@@ -30,18 +30,14 @@ export function AdminLayout(): ReactElement {
 			<AppSidebar />
 			<main className="w-full">
 				<header className="border-b h-[72px] flex justify-between items-center px-4 sticky top-0 bg-background z-10">
-					<SidebarTrigger />
+					<SidebarTrigger className="cursor-pointer" />
 					<div className="flex gap-3">
 						{headerButtons.map((btn) => (
-							<Button
-								key={btn.id}
-								variant="outline"
-								className="rounded-full h-10 w-10 p-0 cursor-pointer"
-							>
+							<Button key={btn.id} variant="outline" className="pixelboom-btn">
 								{btn.icon}
 							</Button>
 						))}
-						<Avatar className="h-10 w-10">
+						<Avatar className="h-10 w-10 cursor-pointer">
 							<AvatarImage src="/profile.png" alt="profile" />
 							<AvatarFallback>LJ</AvatarFallback>
 						</Avatar>
