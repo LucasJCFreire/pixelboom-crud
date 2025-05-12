@@ -4,7 +4,7 @@ export interface CardItem {
 }
 
 export interface User {
-	id: number;
+	id: string;
 	initials: string;
 	name: string;
 	age: number;

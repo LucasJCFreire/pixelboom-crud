@@ -1,21 +1,10 @@
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import type { User } from '@/interfaces/user';
 import { ListFilter, Search } from 'lucide-react';
 import { useState } from 'react';
 import { TablePagination } from './TablePagination';
 import { UserCard } from './UserCard';
-
-interface User {
-	id: number;
-	initials: string;
-	name: string;
-	age: number;
-	gender: string;
-	date: string;
-	time: string;
-	duration: string;
-	status: string;
-}
 
 interface Props {
 	users: User[];

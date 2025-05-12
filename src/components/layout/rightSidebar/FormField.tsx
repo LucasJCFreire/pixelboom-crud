@@ -6,6 +6,8 @@ interface FormFieldProps {
 	label: string;
 	placeholder: string;
 	type?: string;
+	value: string;
+	onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
 export function FormField({
@@ -13,6 +15,8 @@ export function FormField({
 	label,
 	placeholder,
 	type = 'text',
+	value,
+	onChange,
 }: FormFieldProps) {
 	return (
 		<div className="w-full">
@@ -22,7 +26,13 @@ export function FormField({
 			>
 				{label}
 			</Label>
-			<Input id={id} placeholder={placeholder} type={type} />
+			<Input
+				id={id}
+				placeholder={placeholder}
+				type={type}
+				value={value}
+				onChange={onChange}
+			/>
 		</div>
 	);
 }

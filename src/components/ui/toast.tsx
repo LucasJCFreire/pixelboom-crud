@@ -31,7 +31,7 @@ const toastVariants = cva(
       variant: {
         default: "border bg-background text-foreground",
         destructive:
-          "destructive group border-destructive bg-destructive text-destructive-foreground",
+          "destructive group border-destructive bg-red-200 text-destructive-foreground",
       },
     },
     defaultVariants: {
@@ -76,6 +76,7 @@ const ToastClose = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <ToastPrimitives.Close
     ref={ref}
+    asChild
     className={cn("ml-auto", className)}
     toast-close=""
     {...props}
