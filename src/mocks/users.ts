@@ -20,7 +20,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '22/03/2025',
 				time: '10:21am',
-				duration: '38m22s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -31,7 +31,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '22/03/2025',
 				time: '10:21am',
-				duration: '38m22s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -42,7 +42,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '22/03/2025',
 				time: '10:21am',
-				duration: '38m22s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -53,7 +53,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '22/03/2025',
 				time: '10:21am',
-				duration: '38m22s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -64,7 +64,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '22/03/2025',
 				time: '10:21am',
-				duration: '38m22s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -75,7 +75,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '22/03/2025',
 				time: '10:21am',
-				duration: '38m22s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -86,7 +86,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '18/05/2025',
 				time: '09:51h',
-				duration: '32m27s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -97,7 +97,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '19/05/2025',
 				time: '13:41h',
-				duration: '36m12s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -108,7 +108,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '20/05/2025',
 				time: '20:06h',
-				duration: '39m33s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -119,7 +119,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '21/05/2025',
 				time: '07:09h',
-				duration: '59m50s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -130,7 +130,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '22/05/2025',
 				time: '12:14h',
-				duration: '42m17s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -141,7 +141,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '23/05/2025',
 				time: '02:09h',
-				duration: '55m16s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -152,7 +152,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '24/05/2025',
 				time: '05:58h',
-				duration: '28m44s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -163,7 +163,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '25/05/2025',
 				time: '13:55h',
-				duration: '45m55s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -174,7 +174,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '26/05/2025',
 				time: '18:46h',
-				duration: '58m22s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -185,7 +185,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '27/05/2025',
 				time: '23:19h',
-				duration: '18m52s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -196,7 +196,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '28/05/2025',
 				time: '16:30h',
-				duration: '47m50s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -207,7 +207,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '29/05/2025',
 				time: '22:08h',
-				duration: '11m42s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -218,7 +218,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '30/05/2025',
 				time: '06:09h',
-				duration: '35m12s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -229,7 +229,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '31/05/2025',
 				time: '18:03h',
-				duration: '37m29s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -240,7 +240,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '01/06/2025',
 				time: '11:08h',
-				duration: '11m58s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -251,7 +251,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '02/06/2025',
 				time: '06:50h',
-				duration: '41m42s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -262,7 +262,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '03/06/2025',
 				time: '12:35h',
-				duration: '19m39s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -273,7 +273,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '04/06/2025',
 				time: '06:59h',
-				duration: '24m43s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -284,7 +284,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '05/06/2025',
 				time: '10:14h',
-				duration: '10m53s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -295,7 +295,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '06/06/2025',
 				time: '10:31h',
-				duration: '56m27s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -306,7 +306,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '07/06/2025',
 				time: '20:17h',
-				duration: '57m17s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -317,7 +317,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '08/06/2025',
 				time: '22:48h',
-				duration: '54m39s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -328,7 +328,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '09/06/2025',
 				time: '04:02h',
-				duration: '26m19s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -339,7 +339,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '10/06/2025',
 				time: '19:22h',
-				duration: '46m10s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -350,7 +350,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '11/06/2025',
 				time: '10:16h',
-				duration: '52m42s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -361,7 +361,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '12/06/2025',
 				time: '10:20h',
-				duration: '15m12s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -372,7 +372,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '13/06/2025',
 				time: '05:20h',
-				duration: '59m45s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -383,7 +383,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '14/06/2025',
 				time: '22:41h',
-				duration: '43m25s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -394,7 +394,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '15/06/2025',
 				time: '02:50h',
-				duration: '46m57s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -405,7 +405,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '16/06/2025',
 				time: '17:38h',
-				duration: '26m40s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -416,7 +416,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '17/06/2025',
 				time: '13:20h',
-				duration: '35m23s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -427,7 +427,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '18/06/2025',
 				time: '13:08h',
-				duration: '44m38s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -438,7 +438,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '19/06/2025',
 				time: '23:10h',
-				duration: '13m53s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -449,7 +449,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '20/06/2025',
 				time: '08:07h',
-				duration: '20m42s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -460,7 +460,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '21/06/2025',
 				time: '21:27h',
-				duration: '33m11s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -471,7 +471,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '22/06/2025',
 				time: '19:47h',
-				duration: '13m11s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -482,7 +482,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '23/06/2025',
 				time: '14:44h',
-				duration: '47m33s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -493,7 +493,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '24/06/2025',
 				time: '22:47h',
-				duration: '27m21s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -504,7 +504,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '25/06/2025',
 				time: '16:33h',
-				duration: '17m47s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -515,7 +515,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '26/06/2025',
 				time: '07:15h',
-				duration: '13m42s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -526,7 +526,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '27/06/2025',
 				time: '21:48h',
-				duration: '24m42s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -537,7 +537,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '28/06/2025',
 				time: '06:09h',
-				duration: '53m14s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -548,7 +548,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '29/06/2025',
 				time: '10:00h',
-				duration: '23m48s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -559,7 +559,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '30/06/2025',
 				time: '13:05h',
-				duration: '11m52s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -570,7 +570,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '01/07/2025',
 				time: '01:30h',
-				duration: '37m46s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -581,7 +581,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '02/07/2025',
 				time: '07:26h',
-				duration: '29m36s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -592,7 +592,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '03/07/2025',
 				time: '06:22h',
-				duration: '24m34s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -603,7 +603,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '04/07/2025',
 				time: '11:53h',
-				duration: '17m13s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -614,7 +614,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '05/07/2025',
 				time: '19:33h',
-				duration: '31m46s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -625,7 +625,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '06/07/2025',
 				time: '00:12h',
-				duration: '18m54s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -636,7 +636,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '07/07/2025',
 				time: '14:07h',
-				duration: '43m41s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -647,7 +647,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '08/07/2025',
 				time: '13:35h',
-				duration: '39m25s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -658,7 +658,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '09/07/2025',
 				time: '16:34h',
-				duration: '39m32s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -669,7 +669,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '10/07/2025',
 				time: '23:59h',
-				duration: '52m16s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -680,7 +680,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '11/07/2025',
 				time: '02:47h',
-				duration: '59m11s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -691,7 +691,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '12/07/2025',
 				time: '01:21h',
-				duration: '28m10s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -702,7 +702,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '13/07/2025',
 				time: '03:11h',
-				duration: '52m42s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -713,7 +713,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '14/07/2025',
 				time: '11:15h',
-				duration: '49m14s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -724,7 +724,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '15/07/2025',
 				time: '13:54h',
-				duration: '14m30s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -735,7 +735,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '16/07/2025',
 				time: '11:53h',
-				duration: '13m54s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -746,7 +746,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '17/07/2025',
 				time: '13:25h',
-				duration: '56m23s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -757,7 +757,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '18/07/2025',
 				time: '08:46h',
-				duration: '38m25s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -768,7 +768,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '19/07/2025',
 				time: '03:52h',
-				duration: '11m22s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -779,7 +779,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '20/07/2025',
 				time: '17:46h',
-				duration: '11m14s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -790,7 +790,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '21/07/2025',
 				time: '13:55h',
-				duration: '18m25s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -801,7 +801,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '22/07/2025',
 				time: '21:24h',
-				duration: '20m29s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -812,7 +812,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '23/07/2025',
 				time: '10:47h',
-				duration: '45m48s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -823,7 +823,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '24/07/2025',
 				time: '18:42h',
-				duration: '50m44s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -834,7 +834,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '25/07/2025',
 				time: '21:44h',
-				duration: '29m40s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -845,7 +845,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '26/07/2025',
 				time: '11:03h',
-				duration: '52m58s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -856,7 +856,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '27/07/2025',
 				time: '20:17h',
-				duration: '46m11s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -867,7 +867,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '28/07/2025',
 				time: '06:54h',
-				duration: '29m54s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -878,7 +878,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '29/07/2025',
 				time: '17:30h',
-				duration: '16m47s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -889,7 +889,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '30/07/2025',
 				time: '08:27h',
-				duration: '26m17s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -900,7 +900,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '31/07/2025',
 				time: '03:27h',
-				duration: '43m35s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -911,7 +911,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '01/08/2025',
 				time: '15:37h',
-				duration: '26m37s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -922,7 +922,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '02/08/2025',
 				time: '09:39h',
-				duration: '12m37s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -933,7 +933,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '03/08/2025',
 				time: '17:04h',
-				duration: '45m36s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -944,7 +944,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '04/08/2025',
 				time: '06:25h',
-				duration: '28m45s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -955,7 +955,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '05/08/2025',
 				time: '20:38h',
-				duration: '37m45s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -966,7 +966,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '06/08/2025',
 				time: '09:27h',
-				duration: '16m43s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -977,7 +977,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '07/08/2025',
 				time: '15:03h',
-				duration: '18m53s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -988,7 +988,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '08/08/2025',
 				time: '01:39h',
-				duration: '58m13s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -999,7 +999,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '09/08/2025',
 				time: '02:21h',
-				duration: '11m12s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1010,7 +1010,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '10/08/2025',
 				time: '20:50h',
-				duration: '24m25s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1021,7 +1021,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '11/08/2025',
 				time: '09:03h',
-				duration: '59m50s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1032,7 +1032,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '12/08/2025',
 				time: '03:07h',
-				duration: '42m11s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1043,7 +1043,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '13/08/2025',
 				time: '03:39h',
-				duration: '32m33s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1054,7 +1054,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '14/08/2025',
 				time: '19:19h',
-				duration: '23m11s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1065,7 +1065,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '15/08/2025',
 				time: '21:05h',
-				duration: '51m28s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1076,7 +1076,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '16/08/2025',
 				time: '10:47h',
-				duration: '59m28s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1087,7 +1087,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '17/08/2025',
 				time: '18:32h',
-				duration: '34m15s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1098,7 +1098,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '18/08/2025',
 				time: '01:45h',
-				duration: '52m42s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1109,7 +1109,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '19/08/2025',
 				time: '01:37h',
-				duration: '25m15s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1120,7 +1120,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '20/08/2025',
 				time: '14:55h',
-				duration: '12m34s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1131,7 +1131,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '21/08/2025',
 				time: '09:34h',
-				duration: '54m27s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1142,7 +1142,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '22/08/2025',
 				time: '20:11h',
-				duration: '27m25s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1153,7 +1153,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '23/08/2025',
 				time: '04:29h',
-				duration: '43m17s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1164,7 +1164,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '24/08/2025',
 				time: '07:29h',
-				duration: '14m20s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1175,7 +1175,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '25/08/2025',
 				time: '13:17h',
-				duration: '37m46s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1186,7 +1186,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '26/08/2025',
 				time: '23:15h',
-				duration: '34m58s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1197,7 +1197,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '27/08/2025',
 				time: '21:43h',
-				duration: '17m55s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1208,7 +1208,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '28/08/2025',
 				time: '21:33h',
-				duration: '56m35s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1219,7 +1219,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '29/08/2025',
 				time: '11:24h',
-				duration: '40m26s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1230,7 +1230,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '30/08/2025',
 				time: '20:04h',
-				duration: '26m45s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1241,7 +1241,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '31/08/2025',
 				time: '21:18h',
-				duration: '13m50s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1252,7 +1252,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '01/09/2025',
 				time: '11:47h',
-				duration: '11m57s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1263,7 +1263,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '02/09/2025',
 				time: '06:15h',
-				duration: '54m31s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1274,7 +1274,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '03/09/2025',
 				time: '12:47h',
-				duration: '52m17s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1285,7 +1285,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '04/09/2025',
 				time: '06:51h',
-				duration: '18m54s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1296,7 +1296,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '05/09/2025',
 				time: '11:33h',
-				duration: '49m51s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1307,7 +1307,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '06/09/2025',
 				time: '20:45h',
-				duration: '34m23s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1318,7 +1318,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '07/09/2025',
 				time: '06:55h',
-				duration: '42m27s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1329,7 +1329,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '08/09/2025',
 				time: '14:40h',
-				duration: '16m11s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1340,7 +1340,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '09/09/2025',
 				time: '17:19h',
-				duration: '18m37s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1351,7 +1351,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '10/09/2025',
 				time: '22:44h',
-				duration: '36m44s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1362,7 +1362,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '11/09/2025',
 				time: '16:40h',
-				duration: '27m45s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1373,7 +1373,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '12/09/2025',
 				time: '12:46h',
-				duration: '30m58s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1384,7 +1384,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '13/09/2025',
 				time: '10:56h',
-				duration: '10m35s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1395,7 +1395,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '14/09/2025',
 				time: '09:04h',
-				duration: '28m31s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1406,7 +1406,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '15/09/2025',
 				time: '22:04h',
-				duration: '43m32s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1417,7 +1417,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '16/09/2025',
 				time: '23:39h',
-				duration: '51m39s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1428,7 +1428,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '17/09/2025',
 				time: '22:18h',
-				duration: '38m24s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1439,7 +1439,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '18/09/2025',
 				time: '21:49h',
-				duration: '13m38s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1450,7 +1450,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '19/09/2025',
 				time: '04:37h',
-				duration: '33m11s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1461,7 +1461,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '20/09/2025',
 				time: '17:21h',
-				duration: '55m54s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1472,7 +1472,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '21/09/2025',
 				time: '18:38h',
-				duration: '54m22s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1483,7 +1483,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '22/09/2025',
 				time: '01:25h',
-				duration: '23m32s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1494,7 +1494,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '23/09/2025',
 				time: '17:57h',
-				duration: '38m21s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1505,7 +1505,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '24/09/2025',
 				time: '19:18h',
-				duration: '37m45s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1516,7 +1516,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '25/09/2025',
 				time: '06:52h',
-				duration: '14m30s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1527,7 +1527,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '26/09/2025',
 				time: '12:45h',
-				duration: '12m26s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1538,7 +1538,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '27/09/2025',
 				time: '17:08h',
-				duration: '58m47s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1549,7 +1549,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '28/09/2025',
 				time: '09:18h',
-				duration: '45m49s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1560,7 +1560,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '29/09/2025',
 				time: '01:36h',
-				duration: '58m47s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1571,7 +1571,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '30/09/2025',
 				time: '13:45h',
-				duration: '43m31s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1582,7 +1582,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '01/10/2025',
 				time: '23:15h',
-				duration: '56m52s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1593,7 +1593,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '02/10/2025',
 				time: '01:35h',
-				duration: '29m24s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1604,7 +1604,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '03/10/2025',
 				time: '03:13h',
-				duration: '15m47s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1615,7 +1615,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '04/10/2025',
 				time: '04:09h',
-				duration: '26m39s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1626,7 +1626,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '05/10/2025',
 				time: '00:13h',
-				duration: '11m37s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1637,7 +1637,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '06/10/2025',
 				time: '22:44h',
-				duration: '27m15s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1648,7 +1648,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '07/10/2025',
 				time: '06:20h',
-				duration: '40m56s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1659,7 +1659,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '08/10/2025',
 				time: '02:39h',
-				duration: '28m48s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1670,7 +1670,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '09/10/2025',
 				time: '04:18h',
-				duration: '13m50s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1681,7 +1681,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '10/10/2025',
 				time: '18:43h',
-				duration: '27m22s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1692,7 +1692,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '11/10/2025',
 				time: '17:37h',
-				duration: '33m56s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1703,7 +1703,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '12/10/2025',
 				time: '04:56h',
-				duration: '37m51s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1714,7 +1714,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '13/10/2025',
 				time: '07:27h',
-				duration: '56m16s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1725,7 +1725,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '14/10/2025',
 				time: '18:32h',
-				duration: '47m55s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1736,7 +1736,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '15/10/2025',
 				time: '04:29h',
-				duration: '27m37s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1747,7 +1747,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '16/10/2025',
 				time: '04:23h',
-				duration: '55m50s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1758,7 +1758,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '17/10/2025',
 				time: '19:08h',
-				duration: '41m43s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1769,7 +1769,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '18/10/2025',
 				time: '10:47h',
-				duration: '38m24s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1780,7 +1780,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '19/10/2025',
 				time: '14:21h',
-				duration: '26m45s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1791,7 +1791,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '20/10/2025',
 				time: '17:36h',
-				duration: '50m19s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1802,7 +1802,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '21/10/2025',
 				time: '10:59h',
-				duration: '19m38s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1813,7 +1813,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '22/10/2025',
 				time: '03:48h',
-				duration: '50m36s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1824,7 +1824,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '23/10/2025',
 				time: '23:25h',
-				duration: '22m52s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1835,7 +1835,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '24/10/2025',
 				time: '00:09h',
-				duration: '35m13s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1846,7 +1846,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '25/10/2025',
 				time: '05:23h',
-				duration: '29m38s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1857,7 +1857,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '26/10/2025',
 				time: '18:45h',
-				duration: '25m29s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1868,7 +1868,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '27/10/2025',
 				time: '04:04h',
-				duration: '21m32s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1879,7 +1879,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '28/10/2025',
 				time: '12:12h',
-				duration: '18m18s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1890,7 +1890,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '29/10/2025',
 				time: '18:37h',
-				duration: '33m33s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1901,7 +1901,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '30/10/2025',
 				time: '04:34h',
-				duration: '12m46s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1912,7 +1912,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '31/10/2025',
 				time: '13:09h',
-				duration: '18m19s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1923,7 +1923,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '01/11/2025',
 				time: '22:46h',
-				duration: '13m49s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1934,7 +1934,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '02/11/2025',
 				time: '10:05h',
-				duration: '43m35s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1945,7 +1945,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '03/11/2025',
 				time: '07:33h',
-				duration: '39m13s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1956,7 +1956,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '04/11/2025',
 				time: '14:33h',
-				duration: '51m58s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -1967,7 +1967,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '05/11/2025',
 				time: '03:57h',
-				duration: '57m55s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1978,7 +1978,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '06/11/2025',
 				time: '19:35h',
-				duration: '11m42s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -1989,7 +1989,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '07/11/2025',
 				time: '18:02h',
-				duration: '46m47s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2000,7 +2000,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '08/11/2025',
 				time: '03:33h',
-				duration: '29m38s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2011,7 +2011,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '09/11/2025',
 				time: '16:25h',
-				duration: '58m27s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2022,7 +2022,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '10/11/2025',
 				time: '07:16h',
-				duration: '50m26s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2033,7 +2033,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '11/11/2025',
 				time: '10:58h',
-				duration: '36m13s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2044,7 +2044,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '12/11/2025',
 				time: '11:33h',
-				duration: '53m38s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2055,7 +2055,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '13/11/2025',
 				time: '06:11h',
-				duration: '21m13s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2066,7 +2066,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '14/11/2025',
 				time: '23:20h',
-				duration: '51m52s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2077,7 +2077,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '15/11/2025',
 				time: '07:45h',
-				duration: '55m41s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2088,7 +2088,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '16/11/2025',
 				time: '19:48h',
-				duration: '25m22s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2099,7 +2099,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '17/11/2025',
 				time: '10:15h',
-				duration: '39m40s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2110,7 +2110,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '18/11/2025',
 				time: '05:23h',
-				duration: '33m29s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2121,7 +2121,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '19/11/2025',
 				time: '14:16h',
-				duration: '48m17s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2132,7 +2132,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '20/11/2025',
 				time: '22:18h',
-				duration: '57m21s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2143,7 +2143,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '21/11/2025',
 				time: '13:11h',
-				duration: '34m46s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2154,7 +2154,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '22/11/2025',
 				time: '05:09h',
-				duration: '14m34s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2165,7 +2165,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '23/11/2025',
 				time: '03:47h',
-				duration: '44m23s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2176,7 +2176,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '24/11/2025',
 				time: '12:12h',
-				duration: '24m39s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2187,7 +2187,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '25/11/2025',
 				time: '15:36h',
-				duration: '42m13s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2198,7 +2198,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '26/11/2025',
 				time: '09:13h',
-				duration: '50m32s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2209,7 +2209,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '27/11/2025',
 				time: '03:22h',
-				duration: '57m44s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2220,7 +2220,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '28/11/2025',
 				time: '22:21h',
-				duration: '32m14s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2231,7 +2231,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '29/11/2025',
 				time: '22:03h',
-				duration: '13m16s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2242,7 +2242,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '30/11/2025',
 				time: '22:55h',
-				duration: '49m25s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2253,7 +2253,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '01/12/2025',
 				time: '13:13h',
-				duration: '33m30s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2264,7 +2264,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '02/12/2025',
 				time: '01:04h',
-				duration: '37m26s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2275,7 +2275,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '03/12/2025',
 				time: '00:32h',
-				duration: '39m12s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2286,7 +2286,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '04/12/2025',
 				time: '14:53h',
-				duration: '26m41s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2297,7 +2297,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '05/12/2025',
 				time: '04:43h',
-				duration: '55m26s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2308,7 +2308,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '06/12/2025',
 				time: '12:30h',
-				duration: '24m16s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2319,7 +2319,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '07/12/2025',
 				time: '03:13h',
-				duration: '28m57s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2330,7 +2330,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '08/12/2025',
 				time: '07:18h',
-				duration: '46m21s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2341,7 +2341,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '09/12/2025',
 				time: '10:31h',
-				duration: '55m42s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2352,7 +2352,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '10/12/2025',
 				time: '12:06h',
-				duration: '34m47s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2363,7 +2363,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '11/12/2025',
 				time: '00:24h',
-				duration: '11m22s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2374,7 +2374,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '12/12/2025',
 				time: '18:38h',
-				duration: '55m49s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2385,7 +2385,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '13/12/2025',
 				time: '12:08h',
-				duration: '17m30s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2396,7 +2396,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '14/12/2025',
 				time: '05:45h',
-				duration: '42m12s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2407,7 +2407,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '15/12/2025',
 				time: '21:14h',
-				duration: '33m27s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2418,7 +2418,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '16/12/2025',
 				time: '07:07h',
-				duration: '53m15s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2429,7 +2429,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '17/12/2025',
 				time: '03:32h',
-				duration: '45m13s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2440,7 +2440,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '18/12/2025',
 				time: '07:46h',
-				duration: '17m56s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2451,7 +2451,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '19/12/2025',
 				time: '15:17h',
-				duration: '13m56s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2462,7 +2462,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '20/12/2025',
 				time: '13:27h',
-				duration: '33m25s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2473,7 +2473,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '21/12/2025',
 				time: '15:43h',
-				duration: '35m29s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2484,7 +2484,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '22/12/2025',
 				time: '08:05h',
-				duration: '39m11s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2495,7 +2495,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '23/12/2025',
 				time: '16:18h',
-				duration: '39m25s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2506,7 +2506,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '24/12/2025',
 				time: '08:31h',
-				duration: '50m49s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2517,7 +2517,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '25/12/2025',
 				time: '16:03h',
-				duration: '21m12s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2528,7 +2528,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '26/12/2025',
 				time: '12:24h',
-				duration: '38m40s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2539,7 +2539,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '27/12/2025',
 				time: '17:15h',
-				duration: '22m11s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2550,7 +2550,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '28/12/2025',
 				time: '13:42h',
-				duration: '52m20s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2561,7 +2561,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '29/12/2025',
 				time: '00:32h',
-				duration: '54m33s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2572,7 +2572,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '30/12/2025',
 				time: '03:23h',
-				duration: '21m46s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2583,7 +2583,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '31/12/2025',
 				time: '09:47h',
-				duration: '55m45s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2594,7 +2594,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '01/01/2026',
 				time: '23:49h',
-				duration: '25m26s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2605,7 +2605,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '02/01/2026',
 				time: '11:20h',
-				duration: '34m58s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2616,7 +2616,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '03/01/2026',
 				time: '19:06h',
-				duration: '44m40s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2627,7 +2627,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '04/01/2026',
 				time: '03:08h',
-				duration: '17m26s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2638,7 +2638,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '05/01/2026',
 				time: '06:28h',
-				duration: '50m22s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2649,7 +2649,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '06/01/2026',
 				time: '23:07h',
-				duration: '33m27s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2660,7 +2660,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '07/01/2026',
 				time: '06:00h',
-				duration: '58m14s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2671,7 +2671,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '08/01/2026',
 				time: '05:54h',
-				duration: '39m16s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2682,7 +2682,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '09/01/2026',
 				time: '14:16h',
-				duration: '29m53s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2693,7 +2693,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '10/01/2026',
 				time: '10:26h',
-				duration: '53m50s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2704,7 +2704,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '11/01/2026',
 				time: '21:17h',
-				duration: '36m35s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2715,7 +2715,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '12/01/2026',
 				time: '05:38h',
-				duration: '57m23s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2726,7 +2726,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '13/01/2026',
 				time: '22:45h',
-				duration: '50m57s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2737,7 +2737,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '14/01/2026',
 				time: '00:18h',
-				duration: '40m57s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2748,7 +2748,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '15/01/2026',
 				time: '06:54h',
-				duration: '14m42s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2759,7 +2759,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '16/01/2026',
 				time: '22:12h',
-				duration: '45m45s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2770,7 +2770,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '17/01/2026',
 				time: '13:49h',
-				duration: '36m41s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2781,7 +2781,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '18/01/2026',
 				time: '20:43h',
-				duration: '57m50s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2792,7 +2792,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '19/01/2026',
 				time: '11:08h',
-				duration: '20m39s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2803,7 +2803,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '20/01/2026',
 				time: '23:20h',
-				duration: '35m41s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2814,7 +2814,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '21/01/2026',
 				time: '20:48h',
-				duration: '33m27s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2825,7 +2825,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '22/01/2026',
 				time: '13:30h',
-				duration: '57m25s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2836,7 +2836,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '23/01/2026',
 				time: '08:31h',
-				duration: '55m16s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2847,7 +2847,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '24/01/2026',
 				time: '00:24h',
-				duration: '25m31s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2858,7 +2858,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '25/01/2026',
 				time: '00:35h',
-				duration: '44m30s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2869,7 +2869,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '26/01/2026',
 				time: '03:16h',
-				duration: '15m33s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2880,7 +2880,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '27/01/2026',
 				time: '01:50h',
-				duration: '40m47s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2891,7 +2891,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '28/01/2026',
 				time: '04:31h',
-				duration: '22m21s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2902,7 +2902,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '29/01/2026',
 				time: '05:37h',
-				duration: '56m29s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2913,7 +2913,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '30/01/2026',
 				time: '12:28h',
-				duration: '29m53s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2924,7 +2924,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '31/01/2026',
 				time: '00:34h',
-				duration: '46m52s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2935,7 +2935,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '01/02/2026',
 				time: '01:36h',
-				duration: '33m24s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2946,7 +2946,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '02/02/2026',
 				time: '11:17h',
-				duration: '29m11s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2957,7 +2957,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '03/02/2026',
 				time: '23:56h',
-				duration: '24m40s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2968,7 +2968,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '04/02/2026',
 				time: '09:23h',
-				duration: '13m55s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -2979,7 +2979,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '05/02/2026',
 				time: '19:19h',
-				duration: '33m53s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -2990,7 +2990,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '06/02/2026',
 				time: '10:19h',
-				duration: '18m14s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -3001,7 +3001,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '07/02/2026',
 				time: '19:25h',
-				duration: '15m20s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -3012,7 +3012,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '08/02/2026',
 				time: '10:54h',
-				duration: '39m16s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -3023,7 +3023,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '09/02/2026',
 				time: '14:03h',
-				duration: '11m31s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -3034,7 +3034,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '10/02/2026',
 				time: '22:14h',
-				duration: '31m43s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -3045,7 +3045,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '11/02/2026',
 				time: '01:10h',
-				duration: '21m47s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -3056,7 +3056,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '12/02/2026',
 				time: '05:52h',
-				duration: '32m36s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -3067,7 +3067,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '13/02/2026',
 				time: '10:49h',
-				duration: '44m32s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -3078,7 +3078,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '14/02/2026',
 				time: '04:00h',
-				duration: '24m38s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -3089,7 +3089,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '15/02/2026',
 				time: '22:09h',
-				duration: '27m35s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -3100,7 +3100,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '16/02/2026',
 				time: '23:48h',
-				duration: '27m45s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -3111,7 +3111,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '17/02/2026',
 				time: '18:56h',
-				duration: '46m38s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -3122,7 +3122,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '18/02/2026',
 				time: '22:08h',
-				duration: '56m46s',
+				duration: '00:00:00',
 				status: 'Ativo',
 			},
 			{
@@ -3133,7 +3133,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '19/02/2026',
 				time: '15:11h',
-				duration: '10m50s',
+				duration: '00:00:00',
 				status: 'Ativo',
 			},
 			{
@@ -3144,7 +3144,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '20/02/2026',
 				time: '10:10h',
-				duration: '35m46s',
+				duration: '00:00:00',
 				status: 'Inativo',
 			},
 			{
@@ -3155,7 +3155,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '21/02/2026',
 				time: '00:48h',
-				duration: '17m26s',
+				duration: '00:00:00',
 				status: 'Ativo',
 			},
 			{
@@ -3166,7 +3166,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '22/02/2026',
 				time: '16:28h',
-				duration: '39m13s',
+				duration: '00:00:00',
 				status: 'Ativo',
 			},
 			{
@@ -3177,7 +3177,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '23/02/2026',
 				time: '14:53h',
-				duration: '58m41s',
+				duration: '00:00:00',
 				status: 'Inativo',
 			},
 			{
@@ -3188,7 +3188,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '24/02/2026',
 				time: '11:13h',
-				duration: '23m14s',
+				duration: '00:00:00',
 				status: 'Ativo',
 			},
 			{
@@ -3199,7 +3199,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '25/02/2026',
 				time: '18:53h',
-				duration: '29m23s',
+				duration: '00:00:00',
 				status: 'Ativo',
 			},
 			{
@@ -3210,7 +3210,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '26/02/2026',
 				time: '19:49h',
-				duration: '40m13s',
+				duration: '00:00:00',
 				status: 'Inativo',
 			},
 			{
@@ -3221,7 +3221,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '27/02/2026',
 				time: '18:05h',
-				duration: '54m46s',
+				duration: '00:00:00',
 				status: 'Ativo',
 			},
 			{
@@ -3232,7 +3232,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '28/02/2026',
 				time: '00:40h',
-				duration: '23m49s',
+				duration: '00:00:00',
 				status: 'Ativo',
 			},
 			{
@@ -3243,7 +3243,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '01/03/2026',
 				time: '08:09h',
-				duration: '59m59s',
+				duration: '00:00:00',
 				status: 'Inativo',
 			},
 		],
@@ -3264,7 +3264,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '22/03/2025',
 				time: '10:21am',
-				duration: '38m22s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -3275,7 +3275,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '22/03/2025',
 				time: '10:21am',
-				duration: '38m22s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -3286,7 +3286,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '22/03/2025',
 				time: '10:21am',
-				duration: '38m22s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -3297,7 +3297,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '22/03/2025',
 				time: '10:21am',
-				duration: '38m22s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -3308,7 +3308,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '22/03/2025',
 				time: '10:21am',
-				duration: '38m22s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 		],
@@ -3329,7 +3329,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '22/03/2025',
 				time: '10:21am',
-				duration: '38m22s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 			{
@@ -3340,7 +3340,7 @@ export const usersByLocation: Record<
 				gender: 'Homem',
 				date: '22/03/2025',
 				time: '10:21am',
-				duration: '38m22s',
+				duration: '00:00:10',
 				status: 'Inativo',
 			},
 			{
@@ -3351,7 +3351,7 @@ export const usersByLocation: Record<
 				gender: 'Mulher',
 				date: '22/03/2025',
 				time: '10:21am',
-				duration: '38m22s',
+				duration: '00:00:10',
 				status: 'Ativo',
 			},
 		],
