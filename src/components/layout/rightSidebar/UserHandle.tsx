@@ -1,4 +1,5 @@
 import { Sheet, SheetContent } from '@/components/ui/sheet';
+import type { FormData } from '@/interfaces/form';
 import { useState } from 'react';
 import { UserHandleFooter } from './UserHandleFooter';
 import { UserHandleForm } from './UserHandleForm';
@@ -10,20 +11,13 @@ type Props = {
 };
 
 export function UserHandle({ isOpen, onOpenChange }: Props) {
-	type CustomFormData = {
-		name: string;
-		email: string;
-		tel: string;
-		cpf: string;
-		rg: string;
-	};
-
-	const [formData, setFormData] = useState<CustomFormData>({
+	const [formData, setFormData] = useState<FormData>({
 		name: '',
 		email: '',
 		tel: '',
 		cpf: '',
 		rg: '',
+		status: 'Ativo',
 	});
 
 	return (
@@ -31,7 +25,12 @@ export function UserHandle({ isOpen, onOpenChange }: Props) {
 			<SheetContent className="min-w-[275px] sm:min-w-[600px] p-2.5 md:p-10">
 				<UserHandleHeader />
 				<UserHandleForm formData={formData} setFormData={setFormData} />
-				<UserHandleFooter name={formData.name} />
+				<UserHandleFooter
+					name={formData.name}
+					status={formData.status}
+					onClose={() => onOpenChange(false)}
+					setFormData={setFormData}
+				/>
 			</SheetContent>
 		</Sheet>
 	);

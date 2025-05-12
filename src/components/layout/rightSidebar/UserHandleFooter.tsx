@@ -1,43 +1,59 @@
 import { Button } from '@/components/ui/button';
-import { SheetClose, SheetFooter } from '@/components/ui/sheet';
+import { SheetFooter } from '@/components/ui/sheet';
 import { useToast } from '@/components/ui/use-toast';
-import { useRef } from 'react';
+import type { FormData } from '@/interfaces/form';
+import { useUserStore } from '@/store/store';
 
 interface UserHandleFooterProps {
 	name: string;
+	status: FormData['status'];
+	onClose?: () => void;
+	setFormData: React.Dispatch<React.SetStateAction<FormData>>;
 }
-
-export function UserHandleFooter({ name }: UserHandleFooterProps) {
+export function UserHandleFooter({
+	name,
+	status,
+	onClose,
+	setFormData,
+}: UserHandleFooterProps) {
 	const { toast } = useToast();
-	const closeRef = useRef<HTMLButtonElement>(null);
+	const addUser = useUserStore((state) => state.addUser);
 
 	const handleAdd = () => {
 		if (!name.trim()) {
 			toast({
 				variant: 'destructive',
-				description: 'Por favor, informe o nome do usuário.',
+				description:
+					"O campo 'Nome Completo' é obrigatório para adicionar um usuário.",
 			});
 			return;
 		}
 
+		addUser({ name, status });
+
+		setFormData({
+			name: '',
+			email: '',
+			tel: '',
+			cpf: '',
+			rg: '',
+			status: 'Ativo',
+		});
+
 		toast({ description: 'Usuário adicionado com sucesso!' });
-		closeRef.current?.click(); // Fecha o Sheet manualmente
+
+		onClose?.();
 	};
 
 	return (
 		<SheetFooter className="flex justify-center md:justify-end gap-3 flex-row">
-			<SheetClose asChild>
-				<Button
-					variant="outline"
-					className="rounded-full w-28.5 text-sm font-semibold"
-				>
-					Cancelar
-				</Button>
-			</SheetClose>
-
-			<SheetClose asChild>
-				<button type="button" hidden ref={closeRef} />
-			</SheetClose>
+			<Button
+				variant="outline"
+				className="rounded-full w-28.5 text-sm font-semibold"
+				onClick={onClose}
+			>
+				Cancelar
+			</Button>
 
 			<Button
 				className="rounded-full w-28.5 text-sm font-semibold bg-[#202822]"

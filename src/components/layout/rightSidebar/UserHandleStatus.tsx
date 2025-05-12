@@ -1,9 +1,11 @@
 import { Switch } from '@/components/ui/switch';
-import { useState } from 'react';
 
-export function UserHandleStatus() {
-	const [isActive, setIsActive] = useState(true);
+type Props = {
+	status: 'Ativo' | 'Inativo';
+	setStatus: (status: 'Ativo' | 'Inativo') => void;
+};
 
+export function UserHandleStatus({ status, setStatus }: Props) {
 	return (
 		<div className="bg-[#fafafa] p-2 md:p-4 rounded-md border border-border flex items-center justify-between gap-2">
 			<div>
@@ -13,8 +15,13 @@ export function UserHandleStatus() {
 				</p>
 			</div>
 			<div className="flex items-center gap-2">
-				<Switch checked={isActive} onCheckedChange={setIsActive} />
-				<p className="text-sm font-medium">{isActive ? 'Ativo' : 'Inativo'}</p>
+				<Switch
+					checked={status === 'Ativo'}
+					onCheckedChange={(checked) =>
+						setStatus(checked ? 'Ativo' : 'Inativo')
+					}
+				/>
+				<p className="text-sm font-medium">{status}</p>
 			</div>
 		</div>
 	);

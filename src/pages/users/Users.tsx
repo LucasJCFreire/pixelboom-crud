@@ -1,29 +1,30 @@
-import type { CardItem, User } from '@/interfaces/user';
+import type { CardItem } from '@/interfaces/user';
 import { usersByLocation } from '@/mocks/users';
-import { useLocationStore } from '@/store/store';
+import { useLocationStore, useUserStore } from '@/store/store';
 import type { ReactElement } from 'react';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { Cards } from './Cards';
 import { Title } from './Title';
 import { DataTable } from './datatable/DataTable';
 
 export function Users(): ReactElement {
 	const { currentLocation } = useLocationStore();
-	const [data, setData] = useState<{
-		cards: CardItem[];
-		users: User[];
-	}>({ cards: [], users: [] });
+	const users = useUserStore((state) => state.users);
+	const set = useUserStore.setState;
 
 	useEffect(() => {
-		const storedData = localStorage.getItem('usersData');
-		if (!storedData) {
-			localStorage.setItem('usersData', JSON.stringify(usersByLocation));
-			setData(usersByLocation[currentLocation] || { cards: [], users: [] });
+		const storedData = JSON.parse(localStorage.getItem('usersData') || '{}');
+
+		if (!storedData[currentLocation]) {
+			const initialMockData = usersByLocation[currentLocation] || { users: [] };
+
+			storedData[currentLocation] = initialMockData;
+			localStorage.setItem('usersData', JSON.stringify(storedData));
+			set({ users: initialMockData.users });
 		} else {
-			const parsedData = JSON.parse(storedData);
-			setData(parsedData[currentLocation] || { cards: [], users: [] });
+			set({ users: storedData[currentLocation].users || [] });
 		}
-	}, [currentLocation]);
+	}, [currentLocation, set]);
 
 	const formatSessionTime = (totalSeconds: number): string => {
 		const hours = Math.floor(totalSeconds / 3600);
@@ -39,13 +40,11 @@ export function Users(): ReactElement {
 	};
 
 	const calculateCardData = (): CardItem[] => {
-		const totalUsers = data.users.length;
-		const activeUsers = data.users.filter(
-			(user) => user.status === 'Ativo',
-		).length;
+		const totalUsers = users.length;
+		const activeUsers = users.filter((user) => user.status === 'Ativo').length;
 		const inactiveUsers = totalUsers - activeUsers;
 
-		const totalSessionTimeInSeconds = data.users
+		const totalSessionTimeInSeconds = users
 			.filter((user) => user.status === 'Ativo')
 			.reduce((total, user) => {
 				const [hours, minutes, seconds] = user.duration
@@ -70,7 +69,7 @@ export function Users(): ReactElement {
 		<section className="p-1 sm:p-3 lg:p-10">
 			<Title />
 			<Cards dataCard={calculateCardData()} />
-			<DataTable users={data.users} />
+			<DataTable users={users} />
 		</section>
 	);
 }

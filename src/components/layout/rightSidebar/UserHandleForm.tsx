@@ -67,7 +67,10 @@ export function UserHandleForm({ formData, setFormData }: Props) {
 					}
 				/>
 			</div>
-			<UserHandleStatus />
+			<UserHandleStatus
+				status={formData.status}
+				setStatus={(status) => setFormData((prev) => ({ ...prev, status }))}
+			/>
 		</div>
 	);
 }
